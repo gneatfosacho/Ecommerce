@@ -6,13 +6,14 @@ Ecommerce web application using Angular | Node.js | Express.js | MongoDB   (MEAN
 * The project was developed as Full Stack Web app using technologies such as Angular | Node.js | Express.js | MongoDB (MEAN Stack)
 
 ## System Design
+### Architecture
 * Web Application uses a Client-Server Architecture with:
   * Client components developed using Angular 4 - Folder - '/client/Angularecommerce'   
   * Server Restful Api's developed using Node.js, Express.js, MongoDB - Folder - '/server'
+![](/images/2.PNG)
 
 ### Technology stack
-![](/images/0.jpg)
-<br/>
+![](/images/0.PNG)
 <table>
 <thead>
 <tr>
@@ -53,6 +54,9 @@ Ecommerce web application using Angular | Node.js | Express.js | MongoDB   (MEAN
 </table>
 
 ## Screenshots
+
+##### HomePage
+![](/images/1.PNG)
 
 ##### Recommended Deals
 ![](/images/4.PNG)
