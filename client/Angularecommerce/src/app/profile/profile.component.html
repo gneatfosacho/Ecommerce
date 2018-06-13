@@ -1,0 +1,40 @@
+<section id="profile">
+  <div class="container p-5">
+    <h4 class="display-4">My Profile</h4>
+    <hr>
+    <div *ngIf="!data.user" class="m-auto">
+      <h1 class="text-center display-3 mt-5">
+        <i class="fa fa-spinner fa-spin"></i>
+      </h1>
+    </div>
+    <div *ngIf="data.user" class="row mt-5">
+      <div class="col-md-3">
+        <img [src]="data.user.picture" alt="userimage" class="rounded-circle image">
+      </div>
+      <div class="col-md-8 ml-3">
+        <p id="name" class="lead">{{ data.user.name }}</p>
+        <a routerLink="/profile/orders" class="btn btn-warning">My Orders</a>
+        <br>
+        <br>
+        <a routerLink="/profile/settings" class="btn btn-warning">Change Account Settings</a>
+        <br>
+        <br>
+        <a routerLink="/profile/address" class="btn btn-warning">Change Shipping Address</a>
+        <br>
+        <br>
+        <div *ngIf="data.user.isSeller">
+          <p class="lead">Seller Actions</p>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <a routerLink="/profile/postproduct" class="btn btn-outline-success btn-block">Post Product for Sale</a>
+            </div>
+            <div class="col-md-6">
+              <a routerLink="/profile/myproducts" class="btn btn-outline-info btn-block">My Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

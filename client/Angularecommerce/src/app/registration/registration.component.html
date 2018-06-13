@@ -1,0 +1,40 @@
+<section id="registrationPage">
+  <div class="container p-5">
+    <div class="row mt-5">
+      <div class="col-lg-4 offset-lg-4">
+        <app-message></app-message>
+        <div class="card bg-light">
+          <div class="card-body">
+            <h4 class="text-center">Registration</h4>
+            <hr>
+            <form>
+              <div class="form-group">
+                <label class="form-control-label">Name</label>
+                <input type="text" name="name" class="form-control" [(ngModel)]="name">
+              </div>
+              <div class="form-group">
+                <label class="form-control-label">Email</label>
+                <input type="email" name="email" class="form-control" [(ngModel)]="email">
+              </div>
+              <div class="form-group">
+                <label class="form-control-label">Password</label>
+                <input type="password" name="password" class="form-control" [(ngModel)]="password">
+              </div>
+              <div class="form-group">
+                <label class="form-control-label">Confirm Password</label>
+                <input type="password" name="password1" class="form-control" [(ngModel)]="password1">
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" name="isSeller" class="form-check-input" [(ngModel)]="isSeller"> Register as Seller
+                </label>
+              </div>
+              <hr>
+              <button type="button" class="btn btn-primary btn-block" (click)="register()" [disabled]="btnDisabled">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
