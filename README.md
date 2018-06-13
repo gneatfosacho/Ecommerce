@@ -11,6 +11,7 @@ Ecommerce web application using Angular | Node.js | Express.js | MongoDB   (MEAN
   * Server Restful Api's developed using Node.js, Express.js, MongoDB - Folder - '/server'
 
 ### Technology stack
+![](/images/0.jpg)
 <br/>
 <table>
 <thead>
@@ -52,3 +53,21 @@ Ecommerce web application using Angular | Node.js | Express.js | MongoDB   (MEAN
 </table>
 
 ## Screenshots
+
+##### Recommended Deals
+![](/images/4.PNG)
+
+##### Search
+![](/images/5.PNG)
+
+##### Add to cart
+![](/images/6.PNG)
+
+##### Checkout & Payment
+![](/images/7.PNG)
+
+##### Reviews
+![](/images/8.PNG)
+
+##### Track Orders
+![](/images/9.PNG)
