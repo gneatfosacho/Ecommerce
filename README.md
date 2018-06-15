@@ -10,8 +10,8 @@ Ecommerce web application using Angular | Node.js | Express.js | MongoDB   (MEAN
 * Web Application uses a Client-Server Architecture with:
   * Client components developed using Angular 4 - Folder - '/client/Angularecommerce'   
   * Server Restful Api's developed using Node.js, Express.js, MongoDB - Folder - '/server'
-![](/images/2.png)
-
+![](/images/2.png) 
+![](/images/MEAN.PNG) 
 ### Technology stack
 ![](/images/0.PNG)
 <table>
