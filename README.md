@@ -75,3 +75,18 @@ Ecommerce web application using Angular | Node.js | Express.js | MongoDB   (MEAN
 
 ##### Track Orders
 ![](/images/9.PNG)
+
+## Steps for Project Execution :
+
+##### Client Install
+```
+cd client/Angularecommerce
+npm install
+ng serve -o
+```
+##### Server Install
+```
+cd server
+npm install
+node server.js
+```
